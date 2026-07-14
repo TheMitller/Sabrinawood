@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina Carpenter at Coachella 2026</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Persian Typography & Aesthetics -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Vazirmatn', 'sans-serif'],
+                        display: ['Lalezar', 'cursive'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        sabrina: {
+                            dark: '#11010b',
+                            velvet: '#2e0417',
+                            magenta: '#e0115f',
+                            gold: '#dfb76c',
+                            cream: '#fffdf9',
+                            rose: '#f7d6db',
+                            darkrose: '#4a1525',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Custom Glowing and Thematic styles */
+        body {
+            background: linear-gradient(135deg, #11010b 0%, #220211 35%, #3d051f 70%, #540b2f 100%);
+            color: #fffdf9;
+            overflow-x: hidden;
+            background-attachment: fixed;
+        }
+
+        /* Golden Filigree & Casino style borders */
+        .casino-card {
+            background: rgba(17, 1, 11, 0.85);
+            border: 3px double #dfb76c;
+            box-shadow: 0 0 20px rgba(223, 183, 108, 0.2), inset 0 0 15px rgba(223, 183, 108, 0.1);
+        }
+
+        .broadway-border {
+            position: relative;
+            border: 4px solid #dfb76c;
+        }
+
+        .broadway-border::after {
+            content: '';
+            position: absolute;
+            top: -8px; left: -8px; right: -8px; bottom: -8px;
+            border: 1px dashed #dfb76c;
+            pointer-events: none;
+        }
+
+        /* Custom scrollbar to match the design */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #11010b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #dfb76c;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #e0115f;
+        }
+
+        /* Neon pulse for SABRINAWOOD branding */
+        @keyframes pulse-neon {
+            0%, 100% {
+                text-shadow: 0 0 10px rgba(224, 17, 95, 0.8), 0 0 20px rgba(224, 17, 95, 0.6), 0 0 30px rgba(224, 17, 95, 0.4), 0 0 5px #dfb76c;
+            }
+            50% {
+                text-shadow: 0 0 15px rgba(224, 17, 95, 0.9), 0 0 30px rgba(224, 17, 95, 0.7), 0 0 45px rgba(224, 17, 95, 0.5), 0 0 10px #dfb76c;
+            }
+        }
+        .neon-sabrinawood {
+            animation: pulse-neon 2.5s infinite;
+        }
+
+        /* Twinkling stars in background */
+        .star {
+            position: absolute;
+            background-color: white;
+            border-radius: 50%;
+            animation: twinkle 3s infinite ease-in-out;
+            pointer-events: none;
+        }
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.2; }
+            50% { opacity: 0.9; }
+        }
+
+        /* Stylized Quote Styling */
+        .persian-quote {
+            border-right: 4px solid #dfb76c;
+            background: rgba(223, 183, 108, 0.05);
+        }
+
+        /* Interactive Sound Wave Visualization */
+        .bar {
+            width: 4px;
+            height: 15px;
+            background-color: #dfb76c;
+            display: inline-block;
+            margin: 0 2px;
+            animation: bounce 0.8s infinite ease-in-out alternate;
+        }
+        .bar:nth-child(2) { animation-delay: 0.15s; }
+        .bar:nth-child(3) { animation-delay: 0.3s; }
+        .bar:nth-child(4) { animation-delay: 0.45s; }
+        .bar:nth-child(5) { animation-delay: 0.6s; }
+        @keyframes bounce {
+            0% { height: 5px; }
+            100% { height: 35px; }
+        }
+        .paused-bar {
+            animation-play-state: paused !important;
+            height: 8px !important;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-sabrina-cream selection:bg-sabrina-magenta selection:text-white pb-12">
+
+    <!-- Ambient Stars -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
+        <div class="star w-1 h-1 top-12 left-1/4"></div>
+        <div class="star w-1.5 h-1.5 top-24 right-1/3" style="animation-delay: 1s"></div>
+        <div class="star w-0.5 h-0.5 top-1/2 left-1/12" style="animation-delay: 2s"></div>
+        <div class="star w-1.5 h-1.5 bottom-24 right-10" style="animation-delay: 0.5s"></div>
+        <div class="star w-1 h-1 bottom-1/3 left-1/3" style="animation-delay: 1.5s"></div>
+    </div>
+
+    <!-- Retro Casino Ticket Header Header Bar -->
+    <div class="w-full bg-black/60 border-b border-sabrina-gold/30 backdrop-blur-md sticky top-0 z-50 py-3 px-4 shadow-lg">
+        <div class="max-w-6xl mx-auto flex flex-col md:mid-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="text-xl md:text-2xl font-serif text-sabrina-gold tracking-wider uppercase">SABRINAWOOD 2026</div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Grid -->
+    <main class="max-w-6xl mx-auto px-4 mt-8 relative z-10">
+
+        <!-- Dramatic Entrance & Marquee Title -->
+        <header class="text-center py-12 md:py-20 relative">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(224,17,95,0.15)_0%,transparent_60%)] -z-10"></div>
+            
+            <div class="inline-block border-2 border-sabrina-gold/50 rounded-full px-6 py-2 bg-sabrina-velvet/40 text-sabrina-gold text-sm font-semibold tracking-widest mb-6 animate-pulse">
+                ✦  فستیوال بزرگ موسیقی و هنر کوچلا ۲۰۲۶  ✦
+            </div>
+
+            <!-- Big Broadway Lightbox Header -->
+            <div class="broadway-border max-w-4xl mx-auto bg-black/40 p-8 rounded-lg shadow-2xl mb-8 relative">
+                <!-- Bulbs effect decoration (Pure CSS) -->
+                <div class="absolute -top-2 left-0 right-0 flex justify-around px-4">
+                    <div class="w-1.5 h-1.5 rounded-full bg-sabrina-gold animate-ping"></div>
+                    <div class="w-1.5 h-1.5 rounded-full bg-sabrina-gold"></div>
+                    <div class="w-1.5 h-1.5 rounded-full bg-sabrina-gold animate-ping" style="animation-delay: 0.5s"></div>
+                    <div class="w-1.5 h-1.5 rounded-full bg-sabrina-gold"></div>
+                    <div class="w-1.5 h-1.5 rounded-full bg-sabrina-gold animate-ping" style="animation-delay: 1s"></div>
+                </div>
+                
+                <h1 class="text-4xl md:text-7xl font-display text-sabrina-gold leading-tight tracking-normal mb-4 neon-sabrinawood">
+                    روایت تبدیل شدن به یک ستاره
+                </h1>
+                <div class="text-2xl md:text-4xl font-display text-sabrina-rose tracking-wide">
+                    صحنه‌پردازی، گفت‌و‌گوی میان‌نسلی و زندگینامه سابرینا کارپنتر در فستیوال کوچلا
+                </div>
+            </div>
+
+            <p class="font-serif text-xl md:text-2xl italic text-sabrina-rose max-w-2xl mx-auto opacity-90 leading-relaxed">
+               تحلیلی عمیق بر اجرا، استراتژی و ساختار شکنی پاپ مدرن تحت مفهوم سینمایی سابریناوود
+            </p>
+        </header>
+
+        <!-- Prologue / Editorial Section -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch mb-16">
+            <div class="lg:col-span-8 casino-card p-8 md:p-10 rounded-2xl flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center gap-2 mb-4 text-sabrina-magenta">
+                        <span class="h-px w-8 bg-sabrina-magenta"></span>
+                        <span class="text-xs uppercase tracking-widest font-bold">مقدمه</span>
+                    </div>
+                    <p class="text-lg md:text-xl leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                        اجرای سابرینا کارپنتر به عنوان هدلاینر در فستیوال کوچلا نمایانگر نقطه عطفی چشم‌گیر در مطالعات موسیقی پاپ مدرن به شمار می‌رود. او تنها دو سال پس از اجرای هنگام غروبش روی صحنه اصلی Empire Polo Club در ایندیوِ کالیفرنیا، اجرایی که برای نخستین بار قطعه جهانی Espresso را در آن معرفی کرد، این بار به جایگاه هدلاینر شب جمعه ترقی کرد. نمایش 90 دقیقه‌ای او با عنوان سابریناوود ساختار رایج اجراهای فستیوالی، استوار بر اجرای پی‌درپی آهنگ‌هارا کنار گذاشت و یک روایت کاملا تحت کنترل تئاتری که از نظر ساختار انعکاس یک نمایش چندقسمتی برادوی بود رو به نمایش گذاشت.
+                    </p>
+                    <p class="text-lg md:text-xl leading-relaxed text-sabrina-cream/90 text-justify">
+                        این اجرا با تلفیق تجلل سینمایی، مونولوگ‌های متاسینمایی، و طراحی رقص‌های پیچیده، به کاوش ساختار، اجرا و در نهایت انزوای ستارگارن پاپ عصر معاصر پرداخت. هسته مرکزی این تجربه نمایشی، اجرای دوئت تاریخی او با مدانا در هفته دوم فستیوال بود، اجرایی که به‌عنوان اوج مفهومی و میان‌نسلی تمام اسطوره‌پردازی Sabrinawood عمل کرد.
+                    </p>
+                </div>
+                
+                <div class="border-t border-sabrina-gold/20 pt-6 mt-8 flex justify-between items-center text-xs text-sabrina-gold">
+                    <span>تحلیل تخصصی اجرای سابرینا کارپنتر در فستیوال کوچلا</span>
+                    <span>نویسنده: سارا خوشقدم و مبین هاشمی</span>
+                </div>
+            </div>
+            
+            <!-- Side Casino Poster visual -->
+            <div class="lg:col-span-4 bg-gradient-to-br from-sabrina-darkrose to-black border-2 border-sabrina-magenta/40 p-8 rounded-2xl flex flex-col justify-center items-center text-center relative overflow-hidden">
+                <div class="absolute -right-12 -top-12 w-32 h-32 bg-sabrina-magenta/20 rounded-full blur-2xl"></div>
+                <div class="text-6xl text-sabrina-gold mb-4"><i class="fa-solid fa-clover"></i></div>
+                <div class="font-serif text-3xl text-sabrina-gold tracking-wider mb-2">SABRINAWOOD</div>
+                <div class="font-serif italic text-sabrina-rose text-sm mb-6">Music And Fashion Were Always The Passion</div>
+                <div class="w-full bg-sabrina-velvet/60 border border-sabrina-gold/30 p-4 rounded-xl text-right">
+                    <div class="text-xs text-sabrina-gold mb-1">لوکیشن:</div>
+                    <div class="text-sm font-bold text-white mb-3">صحنه‌ی کوچلا - بیابان ایندیو، کالیفرنیا</div>
+                    <div class="text-xs text-sabrina-gold mb-1">تاریخ:</div>
+                    <div class="text-sm font-bold text-white">آپریل ۲۰۲۶</div>
+                </div>
+                <div class="mt-6 flex gap-2 text-sabrina-magenta text-xs">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section: Narrative Architecture -->
+        <section class="mb-16">
+            <div class="flex items-center gap-4 mb-8">
+                <div class="w-3 h-3 bg-sabrina-gold rounded-full shadow-glow"></div>
+                <h2 class="text-3xl md:text-4xl font-display text-sabrina-gold">معماری روایی و طراحی صحنه: خلق صحنه‌ی Sabrinawood</h2>
+                <div class="flex-grow h-px bg-gradient-to-l from-sabrina-gold/50 to-transparent"></div>
+            </div>
+
+            <div class="prose max-w-none text-sabrina-cream/90 leading-relaxed text-lg mb-8 text-justify">
+                طراحی فیزیکی و بصری صحنه‌ی اصلی، نقشی اساسی در اجرای روایت Sabrinawood داشت. به‌جای تکیه بر پس‌زمینه‌های دیجیتالی ساده، تولید صحنه‌ی کارپنتر شامل بازسازی سه‌بعدی و واقعی از چشم‌اندازی با حال‌وهوای هالیوود کلاسیک بود. این طراحی صحنه، پس‌زمینه‌ای الهام‌گرفته از تپه‌های هالیوود را در کنار حروف بزرگ و سه‌بعدی SABRINAWOOD در بر می‌گفت که روی نمایشگرهای اطراف با وضوح 4K به نمایش درمی‌آمدند. همچنین، مسیری شبیه به پیاده‌روی مشاهیر هالیوود که به سبک Yellow Brick Road طراحی شده بود، صحنه‌ی اصلی را به کت‌واک و موانع مقابل تماشاگران متصل می‌کرد.
+                <br><br>
+                این اجرا به چپترهای روایی منظم تقسیم شده بود و هر چپتر با استفاده از طراحی صحنه، تغییر لباس و تیپ‌های شخصیتی متفاوت، روند پیشرفت یک شوگرل خیالی که درحال روایت نمایشی شهرت‌ هست رو ثبت کرد. ست لیست اجرا نیز که متناسب با این روند نمایشی تنظیم شده بود، با دقت به چند اکت تقسیم شده بود تا میان آثار موفق آلبوم Short n’ Sweet و نخستین اجراهای زنده‌ی قطعات آلبوم Man’s Best Friend تعادل برقرار کند.
+            </div>
+
+            <!-- The Big Interactive-Style Interactive Matrix (Table) -->
+            <div class="w-full overflow-x-auto casino-card rounded-2xl p-4 md:p-6 mb-12">
+                <div class="min-w-[800px]">
+                    <div class="grid grid-cols-12 bg-sabrina-darkrose/90 border border-sabrina-gold/40 rounded-t-xl text-sabrina-gold font-bold p-4 text-sm tracking-wide text-center">
+                        <div class="col-span-2">اکت/ روایت چپتر</div>
+                        <div class="col-span-3">قطعات اجرا شده</div>
+                        <div class="col-span-4">عناصر بصری و طراحی صحنه</div>
+                        <div class="col-span-3">آرک تایپ شخصیتی</div>
+                    </div>
+                    
+                    <div class="divide-y divide-sabrina-gold/20">
+                        <!-- Row 1 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت اول: ورود ستاره نو ظهور</div>
+                            <div class="col-span-3 font-serif font-medium text-white">House Tour<br>Taste<br>Busy Woman<br>Manchild</div>
+                            <div class="col-span-4 text-sabrina-rose">ماشینی کلاسیک وینتیج، ترنزیشن از تصویر سیاه و سفید به رنگی ، Walk of fame، حضور پودل‌ها و دالمیشن‌های رقصان</div>
+                            <div class="col-span-3">ستاره‌ی معصوم و مات‌زده که تازه وارد این حرفه شده، یادآور هالیوود قدیم و مد دهه‌ی شصت</div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت دوم: ملودرامای ستارگی</div>
+                            <div class="col-span-3 font-serif font-medium text-white">When Did You Get Hot<br>Please Please Please<br>We Almost Broke Up Again Last Night<br>Nobody's Son<br>because i liked a boy<br>My Man on Willpower</div>
+                            <div class="col-span-4 text-sabrina-rose">استودیوی ضبط رتروی دهه‌ی ۱۹۷۰، صحنه‌ی درایو-این با ماشین، پنکه‌های بزرگی سینمایی</div>
+                            <div class="col-span-3">هنرمند عاشق‌پیشه، زیر نظر مردم زندگی می‌کند و رابطه‌هاش بیشتر به نفع خودش هست تا عشق واقعی</div>
+                        </div>
+
+                        <!-- Row 3 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت سوم: کار اجرایی</div>
+                            <div class="col-span-3 font-serif font-medium text-white">Go Go Juice<br>Such a Funny Way<br>Sugar Talking<br>Don't Smile</div>
+                            <div class="col-span-4 text-sabrina-rose">میله‌های استودیوی رقص، نیمکت پارک، موانع امنیتی</div>
+                            <div class="col-span-3"> رقاصه‌ی کاباره با حرکات حساب شده و دقیق، این نظم نشون میده که عشق‌ چقدر ساختگی و غیرطبیعی</div>
+                        </div>
+
+                        <!-- Row 4 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت چهارم: شوگرل و آشفتگی</div>
+                            <div class="col-span-3 font-serif font-medium text-white">Feather<br>Bed Chem</div>
+                            <div class="col-span-4 text-sabrina-rose">صحنه‌ای سینمایی و پرزرق‌وبرق، بال‌های بزرگ پرمانند، اجرای بورلسک با صندلی</div>
+                            <div class="col-span-3">سایرن اغواگر که به سمت بورلسک و نمایش‌های اغراق‌آمیز رفته</div>
+                        </div>
+
+                        <!-- Row 5 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت پنجم: اوج و تلاقی</div>
+                            <div class="col-span-3 font-serif font-medium text-white">Juno<br>Vogue<br>Bring Your Love<br>Like a Prayer</div>
+                            <div class="col-span-4 text-sabrina-rose">نمایشگرهای سیاه‌وسفید با کنتراست بالا، سکوی متحرک، گروه کُر با لباس‌های مشکی، خروج از دریچه‌ی صحنه</div>
+                            <div class="col-span-3">شمایل‌شکن، برخورد نسل‌های مختلف پاپ، تایید استقلال و عاملیت جنسی زنان و سرکشی هنری.</div>
+                        </div>
+
+                        <!-- Row 6 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت ششم: فرجام پیروزمندانه</div>
+                            <div class="col-span-3 font-serif font-medium text-white">Espresso<br>Goodbye<br>Tears</div>
+                            <div class="col-span-4 text-sabrina-rose">صحنه‌ای پر از عناصر نمایشی و صندلی ماشینی که تبدیل به فواره شد</div>
+                            <div class="col-span-3">ستاره‌ی تبرئه شده، رهایی از انتظارات عمومی و خروجی متاسینمایی.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Scene-by-Scene Narrative -->
+        <section class="mb-16">
+            <div class="flex items-center gap-4 mb-12">
+                <div class="w-3 h-3 bg-sabrina-gold rounded-full shadow-glow"></div>
+                <h2 class="text-3xl md:text-4xl font-display text-sabrina-gold">روایت صحنه‌به‌صحنه: از نوآر تا تکنی‌کالر</h2>
+                <div class="flex-grow h-px bg-gradient-to-l from-sabrina-gold/50 to-transparent"></div>
+            </div>
+
+            <!-- Act 1 Section -->
+            <div class="mb-12 border-r-2 border-sabrina-magenta/40 pr-6 md:pr-8 relative">
+                <div class="absolute right-[-9px] top-0 w-4 h-4 rounded-full bg-sabrina-magenta shadow-lg"></div>
+                
+                <h3 class="text-2xl font-display text-sabrina-gold mb-4">اکت اول: ورود ستاره نوظهور</h3>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    اجرا در تاریکی مطلق آغاز شد. سپس نمایشگرهای اصلی با نمایش یک پیش‌درآمد نوآر سیاه‌وسفید، با عمدی و حال‌وهوایی کلاسیک، جان گرفتند. کارپنتر در نقش شخصیتی ظاهر شد که به‌وضوح یادآور بلوند هیچکاکی بود، زنی که پشت فرمان یک ماشینی کلاسیک دهه‌ی ۱۹۵۰، در بزرگراهی خلوت و پوشیده از مه در دل شب رانندگی می‌کرد و هم‌زمان با آهنگ Hollywood Swinging از گروه Kool & the Gang همخوانی می‌کرد.
+                    <br><br>
+                    در میانه‌ی مسیر، نورهای قرمز و آبی ماشینهای پلیس ناگهان در آینه‌ی عقب ظاهر شدند و سراسر تصویر را فرا گرفتند. او توسط یک افسر گشت بزرگراه، با بازی بازیگر باسابقه سم الیوت، متوقف شد. الیوت با صدای بم و خش‌دار خود راننده را بازجویی کرد و در قالب هشداری رازآلود، به مصنوعی بودن و خطرهای سواحل کالیفرنیا اشاره کرد:
+                </p>
+
+                <!-- Custom Speech Bubble Dialogues -->
+                <div class="persian-quote p-5 rounded-xl my-6">
+                    <span class="text-xs text-sabrina-gold block mb-2 font-bold"><i class="fa-solid fa-microphone"></i> دیالوگ گشت بزرگراه - سم الیوت:</span>
+                    <p class="text-xl font-serif italic text-sabrina-rose font-semibold">می‌دونی اوضاع اون بیرون درست نیست... یه چیزی اونجا میلنگه</p>
+                </div>
+
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    پس از آنکه شخصیت داستان از بازجویی افسر رهایی پیدا کرد، مستقیم به سمت بازسازی دیجیتالی صحنه‌ی کوچلا رانندگی کرد. درست در لحظه‌ای که در ماشین را باز کرد و قدم روی صحنه‌ی واقعی گذاشت، تمام فضای بصری از سیاه‌وسفید به تصویری درخشان، اشباع‌شده و رنگارنگِ تکنی‌کالر تغییر یافت، ادای احترامی آشکار به صحنه‌ی مشهور ورود دوروثی به سرزمین اُز در فیلم جادوگر شهر اُز.
+                    <br><br>
+                    کارپنتر درحالی از خودرو پیاده شد که مینی‌درسی قرمز و درخشان با برش کمرافتاده، جزئیات ساختاری مشکی‌رنگ و کمربندی ظریف بر روی باسن به تن داشت، این لباس سفارشی را جاناثان اندرسون برای برند دیور طراحی کرده بود.
+                    <br><br>
+                    کارپنتر نخست آهنگ House Tour، که بلافاصله با هیت‌های پرانرژی Taste و Busy Woman دنبال شد، تم اصلی اجرا را پایه‌گذاری کرد: گذار یک ستاره‌ی نوظهور و ساده‌دل به یک ستاره‌ی پاپ پرزرق‌وبرق و کالا انگاری‌ شده. این مضمون در اجرای Manchild به اوج بصری خود رسید، جایی که صحنه از رقصندگانی با لباس‌های پودل و دالمیشن استایل‌شده پر شد. این بخش، نگاهی تمسخر آمیز به یکی از اسثتیک قدیمی هالیوود داشت، دورانی که ستاره‌های زن ثروتمند، حیوانات خانگی خاص و عجیب را به‌عنوان اکسسوری‌های لوکس و نمادهای مد با خود حمل می‌کردند.
+                </p>
+
+                <!-- Flowchart Act 1 (Pure Custom Visual Flow) -->
+                <div class="mt-8 casino-card p-6 rounded-2xl bg-black/50">
+                    <h4 class="text-xs font-bold text-sabrina-gold uppercase tracking-wider mb-4 text-center">جریان روایی اکت اول: انتقال از فانتزی نوآر به دنیای رنگارنگ</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
+                        <div class="bg-sabrina-velvet border border-sabrina-gold/20 p-4 rounded-xl text-center">
+                            <span class="text-xs text-sabrina-magenta block mb-1">گام اول</span>
+                            <span class="font-bold text-sm text-white">بازجویی سم الیوت</span>
+                        </div>
+                        <div class="hidden md:block text-center text-sabrina-gold"><i class="fa-solid fa-chevron-left text-lg"></i></div>
+                        <div class="bg-sabrina-velvet border border-sabrina-gold/20 p-4 rounded-xl text-center">
+                            <span class="text-xs text-sabrina-magenta block mb-1">گام دوم</span>
+                            <span class="font-bold text-sm text-white">گذار بصری به تکنی‌کالر</span>
+                        </div>
+                        <div class="hidden md:block text-center text-sabrina-gold"><i class="fa-solid fa-chevron-left text-lg"></i></div>
+                        <div class="bg-sabrina-velvet border border-sabrina-gold/20 p-4 rounded-xl text-center">
+                            <span class="text-xs text-sabrina-magenta block mb-1">گام سوم</span>
+                            <span class="font-bold text-sm text-white">ورود از مسیر Walk of Fame</span>
+                        </div>
+                        <div class="hidden md:block text-center text-sabrina-gold"><i class="fa-solid fa-chevron-left text-lg"></i></div>
+                        <div class="bg-sabrina-magenta border border-sabrina-gold/40 p-4 rounded-xl text-center">
+                            <span class="text-xs text-white block mb-1">نقطه اوج</span>
+                            <span class="font-bold text-sm text-white">اجرای House Tour با لباس سفارشی دیور</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Act 2 Section -->
+            <div class="mb-12 border-r-2 border-sabrina-magenta/40 pr-6 md:pr-8 relative">
+                <div class="absolute right-[-9px] top-0 w-4 h-4 rounded-full bg-sabrina-magenta shadow-lg"></div>
+                
+                <h3 class="text-2xl font-display text-sabrina-gold mb-4">اکت دوم: ملودرامای ستارگی</h3>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    در این بخش، روایت به پشت‌صحنه‌ی صنعت سرگرمی می‌رود و بر جنبه‌های طاقت‌فرسای کار اجرایی و روابط عاطفی در مسیر شهرت تمرکز می‌کند. صحنه برای اجرای Please Please Please به یک استودیوی ضبط رترو با پنل‌های چوبی، الهام‌گرفته از دهه‌ی ۱۹۷۰، تبدیل می‌شود، جایی که کارپنتر زیر نگاه سنگین و کنترل‌گر بازیگری که نقش تهیه‌کننده‌ای خشن را ایفا می‌کند، به اجرا می‌پردازد.
+                    <br><br>
+                    پس از نخستین اجرای زنده‌ی We Almost Broke Up Again Last Night و Nobody's Son ، اجرا وارد مهم‌ترین قسمت داستانی خود می‌شود.
+                    <br><br>
+                    در ادامه، یک صحنه‌ی کلاسیک درایو-این به همراه ماشینیی سفیدرنگ روی استیج قرار می‌گیرد. در هفته‌ی اول، نورافکن روی سوزان ساراندون، برنده‌ی جایزه‌ی اسکار، متمرکز می‌شود، او نسخه‌ای مسن‌تر، اندوهگین و تسخیرشده از شخصیت سابرینا را بازی می‌کند و در مونولوگی نزدیک به هفت دقیقه، از تاثیر مخرب نظارت دائمی افکار عمومی، تنهایی و گذرا بودن جوانی و جاه‌طلبی سخن می‌گوید.
+                    <br><br>
+                    در هفته‌ی دوم، در واکنش به انتقادهایی که این مونولوگ را عامل افت انرژی اجرا می‌دانستند، جینا دیویس با کلاه‌گیسی بلوند در داخل همان ماشینی سفید ظاهر شد. او مونولوگی کوتاه‌تر اما بدبینانه‌تر اجرا کرد و از خواهرزاده‌ای خیالی گفت که هرگز نمی‌تواند تنهایی پنهان در پشت موفقیت‌های عظیم و اجرای استادیومی را درک کند.
+                    <br><br>
+                    در هر دو آخر هفته، این توهم متاسینمایی با حضور افتخاری کوری فوگلمنیس، هم‌بازی سابق کارپنتر در سریال Girl Meets World، شکسته می‌شود، او وارد صحنه می‌شود و صورت‌حساب سابرینا را به او می‌دهد تا اجرا ادامه پیدا کند، لحظه‌ای که یادآور مسیر او از یک بازیگر کودک تا تبدیل شدن به یک ستاره‌ی پاپ و کالایی فرهنگی است.
+                </p>
+
+                <!-- Zaghrouta Incident Accent Card -->
+                <div class="casino-card p-6 md:p-8 rounded-2xl border-sabrina-magenta/60 my-8">
+                    <div class="flex items-center gap-2 mb-4 text-sabrina-magenta">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <span class="text-xs uppercase font-bold tracking-widest">تنش لایو و دیالوگ با تماشاگر: واقعه‌ی زغروته</span>
+                    </div>
+                    <p class="text-md leading-relaxed text-sabrina-cream/90 mb-4 text-justify">
+                        در فاصله‌ی میان این بخش و اکت‌ بعد، اجرا با اتفاقی غیرمنتظره روبه‌رو شد. درست پیش از اجرای We Almost Broke Up Again Last Night، یکی از تماشاگران زغروته کشید، ندای سنتی که زنان عرب در جشن‌های عروسی و مناسبت‌های مهم برای ابراز خوشحالی سر می‌دهند.
+                    </p>
+                    
+                    <div class="bg-black/60 rounded-xl p-4 font-mono text-sm leading-relaxed mb-4 text-sabrina-rose text-right space-y-2">
+                        <div><strong class="text-sabrina-gold">سابرینا کارپنتر:</strong> فکر کنم یکی داره یودل می‌خونه. همین کار رو می‌کنی؟ من دوستش ندارم.</div>
+                        <div><strong class="text-white">هوادار:</strong> این بخشی از فرهنگ منه!</div>
+                        <div><strong class="text-sabrina-gold">سابرینا کارپنتر:</strong> فرهنگت یودل خوندنه؟ اینجا برنینگ من شده؟ چه خبره؟ خیلی عجیبه.</div>
+                    </div>
+
+                    <p class="text-sm leading-relaxed text-sabrina-cream/80 text-justify mb-4">
+                        این گفت‌وگو در فضای مجازی بحث‌های گسترده‌ای درباره‌ی بی‌توجهی فرهنگی به راه انداخت. کارپنتر روز بعد در شبکه‌های اجتماعی خود با انتشار بیانیه‌ای رسمی عذرخواهی کرد و توضیح داد که به‌دلیل شرایط صحنه و مانیتورهای صوتی، نه آن فرد را به‌خوبی دیده و نه صدایش را واضح شنیده است. او نوشت:
+                    </p>
+
+                    <div class="persian-quote p-4 rounded-xl text-justify text-sm italic text-sabrina-rose">
+                        عذرخواهی می‌کنم. آن شخص را درست ندیدم و صدایش را هم واضح نشنیدم. واکنشم فقط از روی سردرگمی و لحن شوخی بود و هیچ قصد بدی نداشتم. می‌توانستم بهتر با این موقعیت برخورد کنم. حالا دیگر می‌دانم زغروته چیست! از این به بعد از همه‌ی تشویق‌ها، چه زغروته باشد چه یودل، استقبال می‌کنم.
+                    </div>
+                </div>
+
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    با وجود این وقفه‌ی ناخواسته، اجرا به‌هنگام My Man on Willpower دوباره ریتم نمایشی خود را به دست آورد. کارپنتر با پیراهن کوتاه یقه‌بلند، پوشیده از پولک‌های شامپاینی و آستین‌های بلند حریر که در باد پنکه‌ها به حرکت درمی‌آمدند، این قطعه را اجرا کرد.
+                    <br><br>
+                    با این حال، پیچیدگی تولید زنده‌ی اجرا باعث بروز چند نقص فنی جزئی نیز شد. در هر دو آخر هفته، تاخیر در سیستم مانیتورینگ باعث شد کارپنتر نوت‌های ابتدایی My Man on Willpower را اندکی عقب‌تر از ریتم بخواند، اتفاقی که او را وادار کرد برای جلب توجه مهندسان صدا، روی مانیتور داخل گوش خود ضربه بزند.
+                </p>
+
+                <!-- Flowchart Act 2 -->
+                <div class="mt-8 casino-card p-6 rounded-2xl bg-black/50">
+                    <h4 class="text-xs font-bold text-sabrina-gold uppercase tracking-wider mb-4 text-center">مراحل داستانی اکت دوم: رنج‌ها و پشت‌صحنه‌ی هنر نمایی</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
+                        <div class="bg-sabrina-velvet border border-sabrina-gold/20 p-4 rounded-xl text-center">
+                            <span class="font-bold text-sm text-white">استودیوی ضبط Please Please Please</span>
+                        </div>
+                        <div class="hidden md:block text-center text-sabrina-gold"><i class="fa-solid fa-arrow-left text-lg"></i></div>
+                        <div class="bg-sabrina-velvet border border-sabrina-gold/20 p-4 rounded-xl text-center">
+                            <span class="font-bold text-sm text-white">مونولوگ در ماشینی درایو-این</span>
+                        </div>
+                        <div class="hidden md:block text-center text-sabrina-gold"><i class="fa-solid fa-arrow-left text-lg"></i></div>
+                        <div class="bg-sabrina-velvet border border-sabrina-gold/20 p-4 rounded-xl text-center">
+                            <span class="font-bold text-sm text-white">حضور افتخاری کوری فوگلمنیس و تحویل صورت‌حساب</span>
+                        </div>
+                        <div class="hidden md:block text-center text-sabrina-gold"><i class="fa-solid fa-arrow-left text-lg"></i></div>
+                        <div class="bg-sabrina-magenta border border-sabrina-gold/40 p-4 rounded-xl text-center">
+                            <span class="font-bold text-sm text-white">اجرای My Man on Willpower همراه با پنکه‌های بزرگ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Act 3 Section -->
+            <div class="mb-12 border-r-2 border-sabrina-magenta/40 pr-6 md:pr-8 relative">
+                <div class="absolute right-[-9px] top-0 w-4 h-4 rounded-full bg-sabrina-magenta shadow-lg"></div>
+                
+                <h3 class="text-2xl font-display text-sabrina-gold mb-4">اکت سوم: کار اجرایی</h3>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    با آغاز اکت‌ سوم، اجرا به جنبه‌های فیزیکی و طاقت‌فرسای شهرت می‌پردازد. قطعه‌ی Go Go Juice در فضایی شبیه‌سازی‌شده از یک کلاس رقص پرتنش آغاز می‌شود. این بخش به‌طور پیوسته به اجرای Such a Funny Way و نخستین اجرای زنده‌ی Sugar Talking می‌رسد، اجرایی که با طراحی رقصی بسیار دقیق، تند و از نظر فیزیکی دشوار، به‌شدت از سبک باب فاسی، کارگردان و طراح رقص افسانه‌ای، الهام گرفته بود.
+                    <br><br>
+                    این طراحی رقص، پویایی حساب‌شده‌ی کشمکش‌ها و کشش‌های یک رابطه‌ی عاشقانه‌ی نمایشی و پرحاشیه را به تصویر می‌کشید. برای شکستن این فضای کاملاً طراحی‌شده، کارپنتر در اجرای Don’t Smile صحنه‌ی اصلی را ترک کرد، در امتداد موانع امنیتی دوید و مستقیماً مقابل دوربین تلفن‌های همراه هواداران آواز خواند، حرکتی که نمایش پرزرق‌وبرق و از پیش‌طراحی‌شده را با صمیمیتی با مخاطبان جایگزین کرد.
+                </p>
+            </div>
+
+            <!-- Act 4 Section -->
+            <div class="mb-12 border-r-2 border-sabrina-magenta/40 pr-6 md:pr-8 relative">
+                <div class="absolute right-[-9px] top-0 w-4 h-4 rounded-full bg-sabrina-magenta shadow-lg"></div>
+                
+                <h3 class="text-2xl font-display text-sabrina-gold mb-4">اکت چهارم: شوگرل هالیوودی و وقفه‌ی فنی</h3>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    اجرا با ترک Feather دوباره به مقیاس بزرگ صحنه‌ی اصلی بازگشت، اجرایی که این بار به‌شکل یک موزیکال تئاتری طراحی شده بود. صحنه با رقصندگانی پوشیده از بال‌های بزرگ پرمانند پر شد که طراحی رقصی اغواگرانه و الهام‌گرفته از کاباره را اجرا می‌کردند. این اجرا با یک مش‌آپ زنده همراه بود که بخش‌هایی از ترانه‌ی کلاسیک Copacabana اثر بری مانیلو را در خود جای داده بود. پس از آن، Bed Chem با یک روتین رقص بورلسک و صندلی، در فضایی اغواگرانه روی صحنه اجرا شد.
+                    <br><br>
+                    بلافاصله پس از پایان Bed Chem، موسیقی ناگهان قطع شد و یک خرابی فنی از پیش طراحی‌شده، صحنه‌ی اصلی را در تاریکی مطلق فرو برد.
+                    <br><br>
+                    چند لحظه بعد، سکوت با ورود ویل فرل شکسته شد. او با لباس یک برق‌کار معمولی در حالی که کابل برق غول‌پیکری را روی زمین می‌کشید، از کت‌واک طولانی صحنه پایین آمد.
+                    <br><br>
+                    فرل در مونولوگی کاملاً جدی اما طنزآمیز، از مشکلات همیشگی کوچلا گلایه کرد. او با لحنی بی‌تفاوت گفت که مجبور شده داخل ماشینش بخوابد، شوخی کرد که احتمالاً یکی یه قوطی نوشابه روی کنسول صدا گذاشته، و با ناراحتی گفت اصلاً قرار بوده هفته‌ی بعد در فستیوال Stagecoach کار کند، نه اینجا.
+                    <br><br>
+                    او سپس تلاش کرد در میان بادهای شدید بیابان سیگاری روشن کند، اما موفق نشد. در حالی که زیر لب غر می‌زد، در نهایت کابل برق را دوباره وصل کرد.
+                    <br><br>
+                    در همان لحظه، نمایشگرها دوباره روشن شدند و تصویری کاملاً جدید از خیابانی پرزرق‌وبرق با تابلوهای نئونی تئاترها ظاهر شد، فضایی که مقدمه‌ی اوج نهایی اجرا را فراهم می‌کرد.
+                </p>
+
+                <!-- Flowchart Act 4 -->
+                <div class="mt-8 casino-card p-6 rounded-2xl bg-black/50">
+                    <h4 class="text-xs font-bold text-sabrina-gold uppercase tracking-wider mb-4 text-center">رویدادهای کلیدی اکت چهارم: تلاقی کمدی و نمایش جادویی</h4>
+                    <div class="flex flex-col md:flex-row gap-4 items-center justify-center">
+                        <div class="bg-sabrina-velvet border border-sabrina-gold/20 p-4 rounded-xl text-center w-full md:w-1/3">
+                            <span class="font-bold text-sm text-white">اتصال کوتاه ساختگی</span>
+                        </div>
+                        <div class="text-sabrina-gold"><i class="fa-solid fa-arrow-left md:rotate-0 rotate-90 text-lg"></i></div>
+                        <div class="bg-sabrina-velvet border border-sabrina-gold/20 p-4 rounded-xl text-center w-full md:w-1/3">
+                            <span class="font-bold text-sm text-white">مونولوگ ویل فرل در نقش برق‌کار</span>
+                        </div>
+                        <div class="text-sabrina-gold"><i class="fa-solid fa-arrow-left md:rotate-0 rotate-90 text-lg"></i></div>
+                        <div class="bg-sabrina-magenta border border-sabrina-gold/40 p-4 rounded-xl text-center w-full md:w-1/3">
+                            <span class="font-bold text-sm text-white">وصل شدن دوباره‌ی برق و روشن شدن تابلوهای نئونی</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Act 5 Section (Madonna Duet - Big Focus) -->
+            <div class="mb-12 border-l-4 border-sabrina-gold pr-6 md:pr-8 relative bg-sabrina-darkrose/20 p-6 rounded-2xl border-dashed">
+                <div class="absolute right-[-14px] top-0 w-6 h-6 rounded-full bg-sabrina-gold shadow-glow flex items-center justify-center">
+                    <i class="fa-solid fa-star text-sabrina-dark text-[10px]"></i>
+                </div>
+                
+                <h3 class="text-3xl font-display text-sabrina-gold mb-4 flex items-center gap-3">
+                    <span>اوج اجرا: مدانا و گفت‌وگوی میان‌نسلی پاپ (هفته‌ی دوم)</span>
+                </h3>
+                
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    در هفته‌ی نخست فستیوال، گذار به اکت‌ پنجم با حضور صوتی از پیش ضبط ‌شده‌ی ساموئل ال. جکسون در اجرای Juno همراه بود. جکسون در نقش یک راهنمای معنوی ظاهر شد و در پایان، با لحنی شوخ‌طبعانه به کارپنتر گفت:
+                    <strong class="text-sabrina-rose">حالا اون آهنگ لعنتی رو تموم کن.</strong>
+                    <br><br>
+                    اما در شب جمعه، ۱۷ آوریل ۲۰۲۶، اجرای هفته‌ی دوم تغییرات اساسی پیدا کرد، تغییراتی که بعدها به مهم‌ترین و بحث‌برانگیزترین لحظه‌ی فرهنگی کل فستیوال تبدیل شد.
+                </p>
+
+                <!-- Custom Step flow for Madonna entrance -->
+                <div class="bg-black/80 border border-sabrina-gold/30 p-6 rounded-xl mb-8">
+                    <h4 class="text-sabrina-gold font-display text-lg mb-4 text-center">شبیه‌ساز گام‌به‌گام ورود ملکه پاپ</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-5 gap-3 text-center text-xs">
+                        <div class="p-3 bg-sabrina-velvet rounded-lg border border-sabrina-gold/10">
+                            <span class="text-sabrina-gold block mb-1">گام اول</span>
+                            <span>نسخه‌ی کوتاه‌شده‌ی Juno</span>
+                        </div>
+                        <div class="p-3 bg-sabrina-velvet rounded-lg border border-sabrina-gold/10">
+                            <span class="text-sabrina-gold block mb-1">گام دوم</span>
+                            <span>همخوانی مخاطبان با بخش Freaky Positions</span>
+                        </div>
+                        <div class="p-3 bg-sabrina-velvet rounded-lg border border-sabrina-gold/10">
+                            <span class="text-sabrina-gold block mb-1">گام سوم</span>
+                            <span>کات ناگهانی تصویر به سیاه‌وسفید</span>
+                        </div>
+                        <div class="p-3 bg-sabrina-velvet rounded-lg border border-sabrina-gold/10">
+                            <span class="text-sabrina-gold block mb-1">گام چهارم</span>
+                            <span>ورود مدانا پشت به تماشاگران</span>
+                        </div>
+                        <div class="p-3 bg-sabrina-magenta rounded-lg border border-sabrina-gold/30 col-span-2 md:col-span-1">
+                            <span class="text-white block mb-1">گام نهایی</span>
+                            <span class="font-bold">اجرای دو نفره:<br>Vogue ➔ Bring Your Love ➔ Like a Prayer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="text-xl font-bold text-sabrina-rose mb-3">گذار به Vogue</h4>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    این همکاری تاریخی در جریان اجرای Juno آغاز شد. کارپنتر قسمت‌های ابتدایی این آهنگ را اجرا کرد، اما درست زمانی که به جمله‌ی مورد انتظار ترانه رسید:
+                    <br>
+                    <span class="font-serif italic text-sabrina-gold font-bold">"Wanna try out some freaky positions / Have you ever tried this one"</span>
+                    <br>
+                    موسیقی ناگهان قطع شد.
+                    <br><br>
+                    در همان لحظه، نمایشگرهای اصلی رنگ‌های اشباع‌شده‌ی خود را از دست دادند و به تصویری سیاه‌وسفید با کنتراست بالا تغییر کردند، ادای احترامی آشکار به موزیک‌ویدیوی اصلی Vogue به کارگردانی دیوید فینچر در سال ۱۹۹۰.
+                    <br><br>
+                    هم‌زمان، نوت‌های آغازین Vogue در استادیوم پخش شد و با بالا آمدن مدانا، ملکه‌ی پاپ، از سکوی بالابر مخفی مرکز صحنه، جمعیت به وجد آمد.
+                    <br><br>
+                    مدانا ابتدا پشت به تماشاگران ایستاد و همگام با موسیقی، به‌آرامی انگشتانش را به هم می‌زد. سپس ناگهان به سمت مخاطبان چرخید و همراه با کارپنتر، عبارت مشهور Strike a pose را اجرا کرد.
+                    <br><br>
+                    دو هنرمند از دو راه‌پله‌ی قرینه در دو سوی صحنه پایین آمدند. مدانا بخش گفتاری آهنگ را که به ستارگان هالیوود کلاسیک اشاره می‌کند، اجرا کرد. این بخش با یک طراحی حرکتی هماهنگ و دقیق دست‌ها به پایان رسید و زمینه را برای اجرای نخستین همکاری رسمی این دو هنرمند فراهم کرد.
+                </p>
+
+                <h4 class="text-xl font-bold text-sabrina-rose mb-3">نخستین اجرای زنده‌ی Bring Your Love</h4>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    با محو شدن آخرین نوت‌های Vogue، نمایشگرهای صحنه بار دیگر به رنگ‌های زنده و پرطراوت تکنی‌کالر بازگشتند و آغاز نخستین اجرای زنده‌ی Bring Your Love را اعلام کردند.
+                    <br><br>
+                    این قطعه که در ۳۰ آوریل ۲۰۲۶ به‌عنوان نخستین سینگل آلبوم پانزدهم مدانا، Confessions II، منتشر شد، توسط استوارت پرایس و Parisi تهیه شده بود و با تکیه بر ریتم‌های پیانوهوس، از سرود کلاب Good Life اثر Inner City (۱۹۸۸) الهام می‌گرفت.
+                    <br><br>
+                    اجرای زنده‌ی این قطعه با گفت‌وگویی کوتاه میان دو ستاره آغاز شد:
+                </p>
+
+                <div class="bg-black/50 border border-sabrina-gold/20 p-4 rounded-xl mb-6 text-sm font-mono text-sabrina-rose space-y-2">
+                    <div><strong class="text-sabrina-gold">مدانا:</strong> سابرینا؟</div>
+                    <div><strong class="text-sabrina-magenta">سابرینا کارپنتر:</strong> مدانا؟</div>
+                    <div><strong class="text-sabrina-gold">مدانا:</strong> یه چیزی هست که می‌خوام درباره‌ش حرف بزنم.</div>
+                    <div class="text-xs text-sabrina-cream/60 italic">(آخرین جمله، برگرفته از آغاز ترانه‌ی مشهور Express Yourself (۱۹۸۹) مدانا بود.)</div>
+                </div>
+
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    اجرای Bring Your Love  سرودی سرکش در برابر منتقدان، تبعیض سنی و محدودیت‌های ساختاری صنعت موسیقی تبدیل شد. متن ترانه نیز بر مخالفت مشترک این دو هنرمند با تحمیل انتظارات بیرونی تاکید داشت.
+                </p>
+
+                <!-- Lyrics Showcase Card -->
+                <div class="casino-card p-6 rounded-2xl bg-gradient-to-tr from-sabrina-velvet to-sabrina-darkrose border-sabrina-gold/60 mb-8">
+                    <div class="text-center font-display text-lg text-sabrina-gold mb-4 border-b border-sabrina-gold/20 pb-2">
+                        <i class="fa-solid fa-music"></i> متن ترانه‌ی Bring Your Love
+                    </div>
+                    <div class="space-y-4 text-center">
+                        <div>
+                            <span class="text-xs uppercase text-sabrina-magenta font-bold block mb-1">مدانا (قسمت اول):</span>
+                            <p class="text-lg font-serif italic text-white font-medium">درباره‌ی ایده‌هام اظهار نظر نکن، نه قضاوتت را می‌خواهم و نه انتظاراتت را.</p>
+                        </div>
+                        <div>
+                            <span class="text-xs uppercase text-sabrina-magenta font-bold block mb-1">کارپنتر (قسمت اول):</span>
+                            <p class="text-lg font-serif italic text-white font-medium">مثل یک اسباب‌بازی با من بازی نکن، تصویری که از من ساخته‌ای، قاتل شادی است.</p>
+                        </div>
+                        <div>
+                            <span class="text-xs uppercase text-sabrina-gold font-bold block mb-1">هر دو (Pre-Chorus):</span>
+                            <p class="text-xl font-serif italic text-sabrina-rose font-bold leading-relaxed">
+                                من می‌دانم رازها کجا دفن شده‌اند،<br>
+                                سعی نکن ساکتم کنی.<br>
+                                سعی نکن با اعداد و آمار حواسم را پرت کنی،<br>
+                                من همه‌ی این‌ها را از روی عشق انجام دادم.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    تنظیم این قطعه، سازبندی الکترونیک استوارت پرایس را با تضاد میان صدای بم و پخته‌ی مدانا و صدای شفاف و زیر سابرینا کارپنتر ترکیب می‌کرد و چشم‌اندازی مشترک از دو نسل متفاوت هنرمندان پاپ را به نمایش می‌گذاشت.
+                    <br><br>
+                    پس از پایان اجرای Bring Your Love، دو هنرمند در ابتدای کت‌واک صحنه توقف کردند و گفت‌وگویی صمیمی داشتند که به یکی از لحظات پرحاشیه‌ی آن شب تبدیل شد.
+                    <br><br>
+                    مدانا با اشاره به اهمیت تاریخی حضورش در کوچلا گفت: امروز دقیقاً بیست سال از اولین باری می‌گذره که توی کوچلا اجرا داشتم، همون اجرایی که برای اولین بار آلبوم Confessions on a Dance Floor رو اجرا کردم... واقعاً هیجان‌انگیزه که بیست سال بعد، با همون چکمه‌ها، همون کرست و همون کت گوچی دوباره اینجام. انگار همه‌چیز به نقطه‌ی شروعش برگشته.
+                    <br><br>
+                    او سپس از کارپنتر بابت دعوتش تشکر کرد. کارپنتر در پاسخ گفت: <strong class="text-sabrina-gold">اصلاً لازم نیست تشکر کنی، مدانا. هر چیزی بخوای مال توئه... حتی لباس تنم</strong> که این جمله، هرچند احتمالاً ناخواسته، ارجاعی به مستند مشهور Truth or Dare محصول سال ۱۹۹۱ مدانا بود.
+                    <br><br>
+                    سپس مدانا بحث را به طالع‌بینی کشاند و گفت: <strong class="text-sabrina-rose">راستی، امشب ماه نو در برج تورسه.</strong> او با اشاره به کارپنتر، از او خواست نشان زودیاکش را تایید کند. پس از آن با شوخی گفت: <strong class="text-sabrina-gold">اون یه تورسه، یعنی خیلی لجبازه.</strong> مدانا در ادامه توضیح کوتاهی درباره‌ی قرار گرفتن هفت سیاره در برج اریس داد و به حاضران توصیه کرد از درگیری‌های بیهوده دوری کنند و روی مهارت‌های ارتباطی خود بیشتر کار کنند.
+                    <br><br>
+                    پیش از آغاز آخرین قطعه، مدانا نتوانست از شوخی درباره‌ی اختلاف قدشان بگذرد و گفت: <strong class="text-sabrina-rose">فکر کنم این اولین باره که با کسی اجرا می‌کنم که از خودم کوتاه‌تره! ممنون که این تجربه رو برام فراهم کردی.</strong> کارپنتر هم در پاسخ، با خنده فقط گفت: <strong class="text-sabrina-gold">آمین!</strong>
+                </p>
+
+                <h4 class="text-xl font-bold text-sabrina-rose mb-3">“Like A Prayer”</h4>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    اجرای مشترک این دو هنرمند با نسخه‌ای نمایشی از Like a Prayer به پایان رسید.
+                    <br><br>
+                    مدانا اجرای ترانه را با جمله‌ی مشهور <span class="font-serif italic text-sabrina-gold font-bold">"I hear your voice, it's like an angel sighing”</span> آغاز کرد، در حالی که هر دو روی زانوهای خود در مرکز کت‌واک صحنه نشسته بودند.
+                    <br><br>
+                    زمانی که نوبت به بخش کارپنتر رسید، او با افزودن لهجه‌ای ظریف و الهام‌گرفته از موسیقی کانتری، رنگ‌وبویی تازه به این اثر کلاسیک بخشید.
+                    <br><br>
+                    در ادامه، گروه کُری بزرگ با لباس‌های بلند و مشکی از انتهای صحنه وارد شدند و با همخوانی باشکوه خود، اوج احساسی قطعه را شکل دادند.
+                    <br><br>
+                    مدانا که در تمام مدت اجرا عینکی با شیشه‌های شفاف به چشم داشت، آن را از صورت برداشت و به سمت ردیف اول تماشاگران پرتاب کرد.
+                    <br><br>
+                    کارپنتر و مدانا، دست در دست یکدیگر، در طول کت‌واک قدم زدند، در حالی که گروه کُر بخش پایانی آهنگ را اجرا می‌کرد.
+                    <br><br>
+                    پس از پایان قطعه، دو هنرمند یکدیگر را در آغوش گرفتند. سپس مدانا برای آخرین بار رو به تماشاگران گفت: <strong class="text-sabrina-rose">شاید نمی‌دونستید، ولی سابرینا یه شعبده‌بازه... و حالا قراره منو ناپدید کنه!</strong>
+                    <br><br>
+                    پس از این شوخی، مدانا از طریق دریچه‌ی کف صحنه پایین رفت و ناپدید شد و سابرینا کارپنتر برای به پایان رساندن اجرای خود، تنها روی صحنه ماند.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section: Fashion & Couture Grid -->
+        <section class="mb-16">
+            <div class="flex items-center gap-4 mb-8">
+                <div class="w-3 h-3 bg-sabrina-gold rounded-full shadow-glow"></div>
+                <h2 class="text-3xl md:text-4xl font-display text-sabrina-gold">مد و لباس در سابرینا وود: دیور و استوارت وایتزمن</h2>
+                <div class="flex-grow h-px bg-gradient-to-l from-sabrina-gold/50 to-transparent"></div>
+            </div>
+
+            <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-8 text-justify">
+                سابرینا کارپنتر و تیم طراحی او با جاناتان اندرسون، مدیر خلاق دیور، همکاری کردند تا مجموعه‌ای از لباس‌ها را طراحی کنند که نسخه‌ای به‌روز از اسثتیک رتروی دهه‌ی ۱۹۷۰ را ارائه می‌داد.
+                هر یک از این استایل‌ها برای اجرای هفته‌ی دوم با دقت بازطراحی شده بود، هم در پاسخ به بازخورد مخاطبان و هم برای افزایش جنبه‌ی نمایشی اجرا و هماهنگی بیشتر با تغییرات رنگی هر اکت از نمایش.
+            </p>
+
+            <!-- Fashion Grid Table -->
+            <div class="w-full overflow-x-auto casino-card rounded-2xl p-4 md:p-6 mb-8">
+                <div class="min-w-[800px]">
+                    <div class="grid grid-cols-12 bg-sabrina-darkrose/90 border border-sabrina-gold/40 rounded-t-xl text-sabrina-gold font-bold p-4 text-sm tracking-wide text-center">
+                        <div class="col-span-2">بخش روایی</div>
+                        <div class="col-span-3">استایل سفارشی هفته اول (دیور)</div>
+                        <div class="col-span-3">استایل بازطراحی شده هفته دوم (دیور)</div>
+                        <div class="col-span-4">کارکرد بصری و معنایی</div>
+                    </div>
+                    
+                    <div class="divide-y divide-sabrina-gold/20">
+                        <!-- Row 1 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت اول: ورود ستاره نوظهور</div>
+                            <div class="col-span-3 text-white">پیراهن کوتاهی پولک‌دوزی شده قرمز با برش Drop-Waist، پنل‌های ساختاری مشکی، کمربند مشکی پایین‌کمر و یک کت بلند وینتیج روی آن</div>
+                            <div class="col-span-3 text-sabrina-rose font-medium">پیراهن کوتاه پولک‌دوزی‌شده‌ی آبی با پنل‌های ساختاری مشکی و کمربند پایین‌کمر مشکی</div>
+                            <div class="col-span-4">الهام‌گرفته از مد دهه‌ی ۱۹۶۰ که جاه‌طلبی خام یک ستاره‌ی نوظهور را بازنمایی می‌کند و با کفش‌هایی یاقوتی برگرفته از کفش‌های دوروثی در جادوگر شهر اُز.</div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت دوم: دلشکستگی و ملودراما</div>
+                            <div class="col-span-3 text-white">پیراهن کوتاهی یقه‌بلند پوشیده از پولک‌های شامپاینی، با آستین‌های حریر بلند و نیمه‌شفاف</div>
+                            <div class="col-span-3 text-sabrina-rose font-medium">پیراهن کوتاهی یقه بلند که با رنگ صورتی بازطراحی شده بود و آستین‌های حریر صورتی هماهنگ با آن داشت</div>
+                            <div class="col-span-4">پولک‌های بازتابنده نور و پارچه‌ی روان لباس، جلوه‌ی پنکه‌های بزرگ و نورپردازی را تقویت می‌کنند و آشفتگی احساسی شخصیت را بازتاب می‌دهند.</div>
+                        </div>
+
+                        <!-- Row 3 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت سوم: کار اجرایی</div>
+                            <div class="col-span-3 text-white">ست سفید دو‌تکه‌ی هالتر، تزئین‌شده با اپلیکه‌های گل‌دوزی‌شده‌ی دست، همراه با دامن ریشه‌دار سفید و براق</div>
+                            <div class="col-span-3 text-sabrina-rose font-medium">ست سیاه دو‌تکه‌ی هالتر</div>
+                            <div class="col-span-4">برگرفته از پوشش شوگرل‌های کاباره و عناصر گل‌دوزی‌شده، در عین حفظ آزادی حرکت برای اجرای رقص‌های سنگین و الهام‌گرفته از باب فاسی.</div>
+                        </div>
+
+                        <!-- Row 4 -->
+                        <div class="grid grid-cols-12 p-4 text-sm items-center hover:bg-white/[0.03] transition-colors duration-150 text-center">
+                            <div class="col-span-2 font-bold text-sabrina-magenta">اکت چهارم تا ششم: اوج و خروج</div>
+                            <div class="col-span-3 text-white">بادی توری مشکی نیمه‌شفاف، همراه با نیم‌تنه‌ی ابریشمی مشکی، یقه‌ی بلند و شنل بلند توری مشکی با الهام از پوشش دوره الیزابتن</div>
+                            <div class="col-span-3 text-sabrina-rose font-medium">بادی توری سفید نیمه‌شفاف که با یک نیم‌تنه ابریشمی سفید هماهنگ و شنل توری سفید با یقه‌ای بلند و اغراق‌شده ست شده بود</div>
+                            <div class="col-span-4">تغییر رنگ از مشکی به سفید در هفته‌ی دوم، نوعی زیبایی‌شناسی عروس‌وار ایجاد می‌کند که در تضاد با فضای تیره‌ی اکت‌های پایانی است و پایان روایت را برجسته می‌سازد.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-md leading-relaxed text-sabrina-rose text-justify border-r border-sabrina-gold/40 pr-4 italic">
+                در هر دو آخر هفته، کفش کارپنتر تقریباً بدون تغییر باقی ماند. او از بوت‌های سفارشی Stuart Weitzman Lucie 75 استفاده می‌کرد، بوت‌هایی که با چرم کشی و پاشنه‌ی بلوکی، ضمن حفظ روح رتروی دهه‌ی ۱۹۷۰، امکان اجرای طراحی رقص پیچیده و چندلایه‌ی این برنامه را نیز فراهم می‌کردند.
+            </p>
+        </section>
+
+        <!-- Section: Cultural Analysis -->
+        <section class="mb-16">
+            <div class="flex items-center gap-4 mb-8">
+                <div class="w-3 h-3 bg-sabrina-gold rounded-full shadow-glow"></div>
+                <h2 class="text-3xl md:text-4xl font-display text-sabrina-gold">تحلیل فرهنگی</h2>
+                <div class="flex-grow h-px bg-gradient-to-l from-sabrina-gold/50 to-transparent"></div>
+            </div>
+
+            <!-- Subsection 1 -->
+            <div class="casino-card p-6 md:p-8 rounded-2xl mb-8">
+                <h3 class="text-2xl font-display text-sabrina-gold mb-4">انتقال مشعل میان نسل‌ها</h3>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    حضور مدانا در اجرای سابرینا کارپنتر، تصمیمی نمایشی بود که فراتر از حضور معمول مهمانان در فستیوال‌ها معنا پیدا می‌کرد. این همکاری، پیوندی تاریخی میان دو نسل از زنان بلوند پاپ برقرار کرد، هنرمندانی که همواره زیر ذره‌بین افکار عمومی بوده‌اند و آشکارا از بیان مثبت و بی‌پرده‌ زنانگی و میل جنسی در آثارشان دفاع کرده‌اند. از نظر تاریخی، کارنامه‌ی هنری مدانا با به چالش کشیدن مرزهای بازنمایی جنسیت زنانه و مقاومت در برابر سانسورهای نهادی گره خورده است. در مقابل، کارپنتر نماینده‌ی نسل مدرن است، نسلی که همان مضامین را با زبانی تازه و متناسب با فرهنگ اینترنتی بازپس‌گیری و بازتعریف می‌کند. موسیقی پاپ او با طنزی اغراق‌آمیز و به‌شدت استایل‌محور شناخته می‌شود.
+                    <br><br>
+                    ایستادن این دو هنرمند کنار یکدیگر روی صحنه، در عمل تاییدی بر مسیر هنری کارپنتر بود. این تایید در ترانه‌ی Bring Your Love به شکلی صریح بیان می‌شود، جایی که متن ترانه به تجربه‌ی مشترک آن‌ها از تقلیل یافتن به آمار فروش، اعداد تجاری یا قربانیان اخلاقی در نگاه منتقدان و رسانه‌ها اشاره می‌کند.
+                    <br><br>
+                    این آهنگ، در حکم بیانیه‌ای موسیقایی برای دفاع از حق آن‌ها در کنترل تصویر عمومی، بدن و آثار هنری‌شان عمل می‌کرد و بر حق تعیین سرنوشت هنری‌شان، مستقل از قضاوت افکار عمومی، تاکید داشت. برای کارپنتر، این تایید میان‌نسلی بُعدی عمیقاً زندگی‌نامه‌ای داشت، گویی مهر تاییدی بود بر مسیر ده‌ساله‌ای که او از یک بازیگر نوجوان دیزنی، که سال‌ها هدف انتقادهای شدید بود، تا یکی از چهره‌های پیشرو پاپ جهانی طی کرده بود. اهمیت اجرای because i liked a boy در اکت دوم نیز غیرقابل انکار است. این قطعه در ابتدا واکنشی غمناک به آزارهای اینترنتی و موج تخریب شخصیت عمومی بود که کارپنتر در سال‌ 2021 تجربه کرده بود، اما اجرای آن در کوچلا، معنایی کاملاً متفاوت پیدا کرد. در ابتدای این اجرا نورهای رنگی که به صورت کارپنتر میخورند یادآور اجرای آهنگ Skin در مراسم GLAAD Media Awards هست که اولین واکنش سابرینا به موج نفرت اینترنتی سال 2021 بود و حال اینکه بیش از ۱۲۵ هزار نفر هم‌صدا با او ترانه‌ای را می‌خواندند که از دل انزوا و رنج شخصی متولد شده بود و بلافاصله پس از آن، او مدانا را در آغوش می‌کشید، تمام مسیر حرفه‌ای‌اش را از نو معنا می‌کرد.
+                    <br><br>
+                    از این لحظه به بعد، دشواری‌های گذشته‌ی او دیگر صرفاً حاشیه‌های زرد یا سوژه‌های رسانه‌ای تلقی نمی‌شدند، بلکه به‌عنوان آزمونی سخت و سرنوشت‌ساز دیده می‌شدند که ورود او را به تبار و میراث بزرگان موسیقی پاپ ممکن ساخته بود.
+                </p>
+            </div>
+
+            <!-- Subsection 2 -->
+            <div class="casino-card p-6 md:p-8 rounded-2xl mb-8">
+                <h3 class="text-2xl font-display text-sabrina-gold mb-4">نقد سینمایی شهرت</h3>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 text-justify">
+                    مفهوم Sabrinawood با بهره‌گیری از مونولوگ‌های سوزان ساراندون و جینا دیویس، خود صنعتی را به نقد می‌کشد که زمینه را برای تبدیل شدن سابرینا کارپنتر به هدلاینر کوچلا فراهم کرده است. کارپنتر با نمایش نسخه‌ای سالخورده، منزوی و حسرت‌زده از خودش که از دست رفتن جوانی‌اش را سوگواری می‌کند و درباره‌ی ماهیت نمایشی حرفه‌اش تامل دارد، مصنوعی بودن سازوکار ستاره‌سازی در موسیقی پاپ را آشکار می‌کند. حضور کوری فوگلمنیس، که در میانه‌ی مونولوگ صورت‌حساب او را روی صحنه به دستش می‌دهد، این ایده را پررنگ‌تر می‌کند که ستاره شدن چه در کودکی و چه در بزرگسالی تا چه اندازه فرایندی معامله‌محور و ساخته‌وپرداخته‌ی صنعت سرگرمی است. این قاب‌بندی متاسینمایی به کارپنتر اجازه می‌دهد هم‌زمان دو نقش را ایفا کند: از یک سو، در قالب یک ستاره‌ی پرزرق‌وبرق ظاهر شود و از سوی دیگر، فاصله‌ای انتقادی و خودآگاهانه از واقعیت‌های تاریک صنعت سرگرمی حفظ کند.
+                </p>
+            </div>
+
+            <!-- Subsection 3 -->
+            <div class="casino-card p-6 md:p-8 rounded-2xl">
+                <h3 class="text-2xl font-display text-sabrina-gold mb-4">تقابل با نگاه دیجیتال</h3>
+                <p class="text-lg leading-relaxed text-sabrina-cream/90 text-justify">
+                    در اجرای Bring Your Love و Like a Prayer، تناقض فرهنگی جالبی شکل گرفت. از یک سو، متن ترانه‌ی Bring Your Love آشکارا با منطق صنعت موسیقی مبتنی بر الگوریتم، آمار و ارقام مخالفت می‌کرد، جایی که مدانا و کارپنتر با هم می‌خوانند:
+                    <br>
+                    <span class="font-serif italic text-sabrina-rose block text-center py-2 font-bold">سعی نکن با اعداد و آمار حواسم را پرت کنی، من همه‌ی این‌ها را از روی عشق انجام دادم.</span>
+                    <br>
+                    اما از سوی دیگر، منتقدان فرهنگی خیلی زود به طنز تلخ صحنه اشاره کردند. در اوج این آهنگ، دوربین‌های استادیوم نشان دادند که هزاران تلفن همراه، بی‌حرکت در هوا نگه داشته شده‌اند. به‌جای آنکه تماشاگران با موسیقی برقصند یا به‌صورت فیزیکی در اجرا مشارکت کنند، بسیاری از آن‌ها تمام این لحظه‌ی تاریخی را از پشت صفحه‌ی موبایل خود تماشا می‌کردند، گویی بیش از تجربه کردن اجرا، در پی ثبت آن برای کسب سرمایه‌ی اجتماعی در فضای مجازی بودند. این صحنه، شکاف میان هنر اجرای زنده و واسطه‌گری رسانه‌های دیجیتال را به‌خوبی نمایان کرد، اینکه میل مخاطب امروز به ثبت و اشتراک‌گذاری یک رویداد تاریخی‌ست، گاهی می‌تواند انرژی جمعی و تجربه‌ی زنده‌ی همان رویداد را تضعیف کند.
+                </p>
+            </div>
+        </section>
+
+        <!-- Conclusion Section -->
+        <section class="mb-16">
+            <div class="flex items-center gap-4 mb-8">
+                <div class="w-3 h-3 bg-sabrina-gold rounded-full shadow-glow"></div>
+                <h2 class="text-3xl md:text-4xl font-display text-sabrina-gold">جمع‌بندی: آخرین قاب و پایان خیس داستان</h2>
+                <div class="flex-grow h-px bg-gradient-to-l from-sabrina-gold/50 to-transparent"></div>
+            </div>
+
+            <div class="casino-card p-8 md:p-10 rounded-2xl relative overflow-hidden">
+                <div class="absolute -left-16 -bottom-16 w-48 h-48 bg-sabrina-magenta/10 rounded-full blur-2xl"></div>
+                
+                <p class="text-lg md:text-xl leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    پس از خروج مدانا از صحنه، کارپنتر بلافاصله با اجرای Espresso فضای پرانرژی و کمپ نمایش را دوباره زنده کرد. در حالی که از یک لیوان اسپرسو مارتینی می‌نوشید، رو به جمعیت عظیم گفت:
+                </p>
+
+                <div class="persian-quote p-5 rounded-xl my-6">
+                    <p class="text-2xl font-serif italic text-sabrina-rose font-bold text-center">
+                        دو سال پیش، فقط می‌خواستم قبل از کوچلا یه آهنگ کوچیک منتشر کنم... و حالا فکر کنم همتون همه کلماتش رو حفظ باشید!
+                    </p>
+                </div>
+
+                <p class="text-lg md:text-xl leading-relaxed text-sabrina-cream/90 mb-6 text-justify">
+                    در ادامه، صحنه به منظره‌ای شلوغ، پرهیاهو و سوررئال تبدیل شد، جایی که شوگرل‌ها، بازیگرانی با لباس راهبه‌های کاتولیک و رقصنده‌های Chippendales هم‌زمان وارد صحنه شدند و بارانی از خرده‌کاغذهای صورتی همه‌جا را پوشاند. اجرای ۹۰ دقیقه‌ای با قطعات Goodbye و سپس Tears به پایان رسید. برای اجرای پایانی، کارپنتر روی صندلی عقب همان ماشینی کلاسیکی نشست که از ابتدای نمایش روی صحنه حضور داشت. صندلی ماشین مانند یک سکوی بالابر به‌آرامی او را به ارتفاع برد و هم‌زمان خود ماشین به فواره‌ای عظیم و واقعی تبدیل شد که آب را از همه‌سو به اطراف پخش می‌کرد.
+                    <br><br>
+                    کارپنتر، در حالی که کاملاً خیس شده بود، آهنگ را اجرا کرد. با محو شدن موسیقی، او همچنان خیس اما پیروزمندانه بر فراز صحنه باقی ماند. در همان لحظه، نمایشگرهای اصلی تیتراژ پایانی Sabrinawood را با طراحی‌ای الهام‌گرفته از تیتراژ فیلم‌های کلاسیک نمایش دادند، پایانی که شخصیت سینمایی ستاره‌ی پاپ سابرینا را به نقطه‌ی آغاز روایت بازمی‌گرداند و حلقه‌ی داستان ستاره‌ی سینمایی او را کامل می‌کرد.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer with "Back to Top" -->
+    <footer class="mt-16 border-t border-sabrina-gold/20 py-8 text-center text-sm text-sabrina-rose/60 max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 relative z-10">
+        <div>
+            © ۲۰۲۶ تحلیل جامع ست سابرینا کارپنتر در فستیوال کوچلا توسط سارا خوشقدم و مبین هاشمی - تمامی حقوق محفوظ است.
+        </div>
+        <button onclick="scrollToTop()" class="bg-sabrina-gold/20 hover:bg-sabrina-gold text-sabrina-gold hover:text-sabrina-dark border border-sabrina-gold/40 px-4 py-2 rounded-full transition-all duration-300 flex items-center gap-2">
+            <i class="fa-solid fa-arrow-up"></i>
+            <span>برگشت به ابتدای صفحه</span>
+        </button>
+    </footer>
+    </script>
+</body>
+</html>
